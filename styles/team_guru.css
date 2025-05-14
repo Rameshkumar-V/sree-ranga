@@ -1,0 +1,62 @@
+.team-section {
+  padding: 60px 20px;
+  background: linear-gradient(to bottom right, #fff8dc, #fff);
+  text-align: center;
+}
+
+.team-section h2 {
+  color: #1a237e;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.subtitle {
+  color: #444;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.swiper.teamSwiper {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.guru-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.guru-card:hover {
+  transform: scale(1.03);
+}
+
+.guru-card img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid #fdd835;
+}
+
+.guru-card h3 {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.guru-card p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.swiper-pagination {
+  margin-top: 20px;
+}
