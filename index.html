@@ -15,6 +15,11 @@
   <link rel="stylesheet" href="styles/team_guru.css">
   <link rel="stylesheet" href="styles/contact.css">
   <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/stats.css">
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <!-- SWIPER JS -->
    <!-- Swiper CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
@@ -35,10 +40,10 @@
   <!-- HEADER -->
   <header>
     <div class="header-logo">
-      <img src="/assets/ranga_log.jpg" alt="Sri Ranga Logo" height="50" width="50" />
+      <img src="/assets/global/sree_ranga_academy_logo.jpg" alt="Sri Ranga Academy Logo" height="50" width="50" />
       <div class="logo-text">
         <h1>Sri Ranga</h1>
-        <small>OF FINE ARTS</small>
+        <small>ACADEMY OF FINE ARTS</small>
       </div>
     </div>
   
@@ -57,7 +62,10 @@
   <div class="home-section">
     <div class="overlay"></div>
     <div class="welcome-content animate__animated animate__fadeInDown " data-aos="fade-down">
-      <h1 class="animate__heartBeat">Welcome to Sri Ranga Fine Arts</h1>
+      <h1 class="animate__heartBeat ">
+        <span class="welcome-content-special-1 noto-sans">Welcome to</span><br>
+        <span class="welcome-content-special noto-sans">Sri Ranga Academy</span><br> 
+        <span class="welcome-content-special-2 noto-sans">of Fine Arts</span></h1>
       <p>
         Celebrating the timeless beauty of Indian classical arts with devotion,<br />
         creativity, and cultural pride.
@@ -73,10 +81,11 @@
         <img src="assets//banner.jpg" alt="Founder or Bharatanatyam Dance">
       </div>
       <div class="about-content" data-aos="zoom-in-down">
-        <h2>About Sri Ranga Fine Arts</h2>
+        <h2 class="markazi-text">About Sri Ranga Fine Arts</h2>
         <p>
-          Sri Ranga Fine Arts has been nurturing the ancient traditions of Bharatanatyam, Carnatic music, and other Indian classical art forms with passion and dedication for over a decade. Founded by skilled artists, the institution is committed to preserving the cultural heritage of India through professional training and soulful performances.
-        </p>
+          Sri Ranga Academy of Fine Arts is a dedicated initiative committed to promoting the rich heritage of Indian classical arts in rural communities. Since its inception, the academy has been a nurturing space for aspiring artists, offering structured training in Bharatanatyam, Carnatic Vocal Music, Violin, Veena (Veenai), Drawing, and more — all under the guidance of passionate and experienced gurus.
+
+          We believe in learning through practice, which is why our students are given maximum opportunities to perform on stage, participate in events, and grow their confidence as artists. Our mission is to make classical arts accessible, inspiring, and lifelong. </p>
         <p>
           <strong>Our Mission:</strong> To inspire and educate the next generation in classical dance and music by providing authentic and structured training.
         </p>
@@ -86,7 +95,36 @@
       </div>
     </div>
   </div>
-
+  <!-- STATISTICS -->
+  <section class="stats-modern-section" id="journey">
+    <div class="stats-modern-wrapper">
+  
+      <div class="stat-modern-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="blob-background"></div>
+        <img src="./assets/statistics/calender.svg" alt="Founded Icon">
+        <h3><span class="counter" data-target="2009">0</span></h3>
+        <p>Founded Year</p>
+      </div>
+  
+      <div class="stat-modern-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="blob-background"></div>
+        <img src="assets/statistics/students.svg" alt="Student Icon">
+        <h3><span class="counter" data-target="150">0</span>+</h3>
+        <p>Happy Students</p>
+      </div>
+  
+      <div class="stat-modern-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="blob-background"></div>
+        <img src="assets/statistics/teachers.svg" alt="Teacher Icon">
+        <h3><span class="counter" data-target="6">0</span></h3>
+        <p>Teachers</p>
+      </div>
+  
+      
+  
+    </div>
+  </section>
+  
   <!-- COURSES -->
   <div class="courses-section" id="courses">
     <h2 class="section-title">Our Courses & Services</h2>
@@ -94,39 +132,44 @@
       
       <div class="course-card" data-aos="zoom-out-up">
         <img src="./assets/services/bharathanatyam.png" alt="Bharatanatyam">
-        <h3>Bharatanatyam</h3>
+        <h3>Bharatanatyam </h3>
         <p>Classes from beginner to advanced levels, focused on technique and expression.</p>
       </div>
   
       <div class="course-card" data-aos="zoom-out-up">
         <img src="./assets/services/singing.svg" alt="Carnatic Vocal">
-        <h3>Carnatic Vocal</h3>
-        <p>Vocal training in classical Carnatic music for all age groups.</p>
+        <h3>Carnatic Vocal Music</h3>
+        <p>Learn the rich melodies and intricate techniques of South Indian classical singing with personalized guidance.</p>
+
       </div>
   
       
       <div class="course-card" data-aos="zoom-out-up">
         <img src="./assets/services/veenai.svg" alt="Veena">
-        <h3>Veena</h3>
-        <p>Master the soulful string instrument with systematic practice sessions.</p>
+        <h3>Veena (Veenai)</h3>
+        <p>Explore the majestic tones of this ancient instrument through traditional techniques and practice.</p>
+
       </div>
       
       <div class="course-card" data-aos="zoom-out-up">
         <img src="./assets/services/drawing.svg" alt="Nattuvangam">
-        <h3>Drawing</h3>
-        <p>The art of rhythmic syllables — essential for Bharatanatyam accompaniment.</p>
+        <h3>Drawing and Fine Arts</h3>
+        <p>Boost creativity and visual expression through sketching, painting, and fine art fundamentals.</p>
+
       </div>
       
       <div class="course-card" data-aos="zoom-out-up">
         <img src="./assets/services/piano.svg" alt="Mridangam">
-        <h3>KeyBoard </h3>
-        <p>Traditional percussion lessons guided by expert gurus.</p>
+        <h3>Piano & Keyboard</h3>
+        <p>Master the keys with structured lessons blending Western and Indian styles for all age groups.</p>
+
       </div>
 
       <div class="course-card" data-aos="zoom-out-up">
         <img src="./assets/services/violin.svg" alt="Mridangam">
-        <h3>Violin </h3>
-        <p>Traditional percussion lessons guided by expert gurus.</p>
+        <h3>Carnatic Violin</h3>
+        <p>Train in the soulful string art of Carnatic violin with exercises in rhythm, pitch, and improvisation.</p>
+
       </div>
    
     </div>
@@ -140,22 +183,29 @@
     </p>
 
     <div class="gallery-grid">
-      <div class="gallery-item" data-aos="zoom-in">
-        <img src="assets/gallery/gallery-bharathanatyam.jpg" alt="Solo Performance">
-        <p>Solo Bharatanatyam Recital</p>
-      </div>
-      <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-        <img src="assets/gallery/gallery-drawing.jpg" alt="Group Performance">
-        <p>Group Stage Performance</p>
-      </div>
       <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
         <img src="assets/gallery/gallery-image-3.jpg" alt="Costume Display">
         <p>Traditional Dance Costume</p>
       </div>
+      <div class="gallery-item" data-aos="zoom-in">
+        <img src="assets/gallery/group.jpeg" alt="Solo Performance">
+        <p>Group Stage Performance  </p>
+      </div>
+      <div class="gallery-item" data-aos="zoom-in">
+        <img src="assets/gallery/gallery-bharathanatyam.jpg" alt="Solo Performance">
+        <p>Bharatanatyam</p>
+      </div>
+      
       <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
         <img src="assets/gallery/gallery-image-4.jpg" alt="Behind the scenes">
         <p>Behind the Scenes</p>
       </div>
+      
+      <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+        <img src="assets/gallery/gallery-drawing.jpg" alt="Group Performance">
+        <p>Behind the Scenes</p>
+      </div>
+      
     </div>
   </div>
 
@@ -177,7 +227,9 @@
       <!-- Temple Invitation -->
       <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
         <img src="assets/achievements/award-2.jpg" alt="Temple Performance">
-        <h3>Chidambaram Temple Invitation</h3>
+        <h3>
+
+          Best fine arts academy by Rotary clube for two years</h3>
         <p>Special performance during Maha Shivaratri festival at the historic Chidambaram Nataraja Temple.</p>
       </div>
     </div>
@@ -218,18 +270,28 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide guru-card">
           <img src="https://cdn-icons-png.flaticon.com/512/4140/4140037.png" alt="Guru 1">
-          <h3>Smt. Anuradha Devi</h3>
-          <p>Senior Bharatanatyam Guru with 25+ years of training and performance experience across India and abroad.</p>
+          <h3>Mr. Sasi Kumar</h3>
+          <p><strong>🎹 Keyboard & 🎻 Violin</strong><br>Experienced in blending melody and rhythm with technical mastery.</p>
         </div>
         <div class="swiper-slide guru-card">
           <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" alt="Guru 2">
-          <h3>Shri. Karthik R.</h3>
-          <p>Expert Mridangist and Vocal Trainer, known for his energetic rhythm sessions and live concert experience.</p>
+          <h3>Mr. Muneeswaran</h3>
+          <p><strong>🎨 Drawing & Fine Arts</strong><br>Inspiring creativity and visual expression in young minds.</p>
+        </div>
+        <div class="swiper-slide guru-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/4140/4140049.png" alt="Guru 2">
+          <h3>Ms. Amala</h3>
+          <p><strong>🎨 Drawing & Fine Arts</strong><br>Inspiring creativity and visual expression in young minds.</p>
         </div>
         <div class="swiper-slide guru-card">
           <img src="https://cdn-icons-png.flaticon.com/512/4140/4140061.png" alt="Guru 3">
-          <h3>Smt. Latha S.</h3>
-          <p>Veena and Nattuvangam specialist who integrates theory with soulful practice. 18+ years of teaching.</p>
+          <h3>Mr. Veeramani</h3>
+          <p><strong>🎼 Veena (Veenai)</strong><br>Specialist in classical string performance with soulful instruction.</p>
+        </div>
+        <div class="swiper-slide guru-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/4140/4140063.png" alt="Guru 3">
+          <h3>Mr. Muthukumar</h3>
+          <p><strong>🎤 Carnatic Vocal</strong><br>Trained vocalist with a devotion to  teaching South Indian music.</p>
         </div>
       </div>
 
@@ -251,17 +313,17 @@
       <div class="contact-info" data-aos="fade-right">
         <div class="info-block">
           <i class="fas fa-phone-alt"></i>
-          <div><h4>Phone</h4><p>+91 98765 43210</p></div>
+          <div><h4>Phone</h4><p>+91 98863 25224</p></div>
         </div>
   
         <div class="info-block">
           <i class="fas fa-envelope"></i>
-          <div><h4>Email</h4><p>srirangafinearts@gmail.com</p></div>
+          <div><h4>Email</h4><p>srirangamedia@gmail.com</p></div>
         </div>
   
         <div class="info-block">
           <i class="fas fa-map-marker-alt"></i>
-          <div><h4>Visit Us</h4><p>123, Cultural Street, Chennai, Tamil Nadu</p></div>
+          <div><h4>Visit Us</h4><p>92, First Floor, Perambalur Road, Thuraiyur, India, Tamil Nadu</p></div>
         </div>
       </div>
   
@@ -273,12 +335,7 @@
           <textarea placeholder="Write your message here..." rows="4" required></textarea>
           <button type="submit">Send Message</button>
         </form>
-  
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.586173496426!2d80.2337!3d13.0489"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250427.20088058262!2d78.57419938671875!3d11.266922500000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bab1b1fbc3e24e1%3A0xced08584e5428627!2sSri%20Ranga%20Academy!5e0!3m2!1sen!2sus!4v1747207263281!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   </div>
@@ -310,9 +367,9 @@
       <div class="footer-social">
         <h4>Follow Us</h4>
         <div class="social-icons">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/SriRangaFineArts/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/srirangaacademy"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCFSr36Qf1XDaawxHqbbLI0Q"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
     </div>
@@ -357,6 +414,7 @@
 </body>
 <!-- for animation -->
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="./scripts/count_numbers.js"></script>
 <script>
   AOS.init({
     duration: 1000,

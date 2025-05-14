@@ -9,6 +9,25 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
   }
+  
+.heading-robonto{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.noto-sans {
+  font-family: "Noto Sans Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
   body {
     
@@ -56,11 +75,33 @@
 
     
   }
+  .welcome-content-special-1{
+    text-shadow: 0 0 40px #ffd000, 0 0 50px #efed59;
+    color: #efed59;
+
+
+    
+  }
+  .welcome-content-special{
+    text-shadow: 0 0 50px #3528ed, 0 0 50px #1c1891;
+    text-shadow: 0 0 40px #28036d, 0 0 50px #0638c5;
+
+
+
+  }
+  .welcome-content-special-2{
+    text-shadow: 0 0 40px #ffd000, 0 0 50px #efed59;
+    color: #efed59;
+   
+
+  }
 
   .welcome-content p {
     font-size: 1.2rem;
     margin-top: 1rem;
     color: #e0e0e0;
+    text-shadow: 0 0 40px #fffdf6, 0 0 50px #2e2d06;
+
   }
 
   .btn {

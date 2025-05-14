@@ -1,0 +1,68 @@
+.stats-modern-section {
+    background-color: #f8fddd; /* Fully opaque yellow with 50% transparency */
+
+    padding: 80px 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .stats-modern-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1100px;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .stat-modern-card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    width: 220px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 30px rgba(209, 245, 4, 0.1);
+    transition: transform 0.3s ease;
+    z-index: 1;
+  }
+  
+  .stat-modern-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .stat-modern-card img {
+    width: 48px;
+    margin-bottom: 10px;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+  }
+  
+  .stat-modern-card h3 {
+    font-size: 38px;
+    color: #153b8c;
+    margin-bottom: 8px;
+    
+  }
+  
+  .stat-modern-card p {
+    color: #444;
+    font-size: 15px;
+  }
+  
+  .blob-background {
+    position: absolute;
+    top: -20px;
+    right: -30px;
+    width: 120px;
+    height: 120px;
+    background: #fde74c;
+    border-radius: 50%;
+    opacity: 0.2;
+    z-index: -1;
+    filter: blur(20px);
+  }
+  

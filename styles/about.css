@@ -7,6 +7,13 @@
     background-color: #f8fddd; /* Fully opaque yellow with 50% transparency */
   }
   
+.markazi-text{
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+  
   .about-container {
     width: 80%;
     max-width: 1100px;
