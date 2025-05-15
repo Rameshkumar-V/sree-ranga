@@ -1,0 +1,59 @@
+.social-follow {
+    background-color: #1c3b6e;
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .social-follow h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #fde74c;
+    letter-spacing: 1px;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: #fde74c;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    animation: popIn 0.5s ease forwards;
+    animation-delay: calc(var(--i) * 0.2s);
+    opacity: 0;
+  }
+  
+  .social-link i {
+    font-size: 22px;
+  }
+  
+  .social-link:hover {
+    background-color: #fde74c;
+    color: #1c3b6e;
+    transform: translateY(-3px);
+  }
+  
+  @keyframes popIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px) scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+  

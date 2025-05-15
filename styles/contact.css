@@ -116,5 +116,10 @@
     .contact-content {
       flex-direction: column;
     }
+    .academy-logo{
+      justify-self: center;
+   
+    }
+    
   }
   

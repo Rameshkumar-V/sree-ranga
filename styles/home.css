@@ -12,6 +12,9 @@
 
   html {
     color-scheme: only light;
+    height: 100;
+    width: 100;
+    overflow-x: hidden;
   }
   
 
@@ -55,7 +58,7 @@
   }
 
   .overlay {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3) rgb(253, 231, 76,0.8);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -65,7 +68,7 @@
 
   .welcome-content {
     position: relative;
-    z-index: 10;
+    z-index: 5;
     text-align: center;
     padding: 2rem;
   }
@@ -73,23 +76,24 @@
   .welcome-content h1 {
     font-size: 3rem;
     font-family: 'Playfair Display', serif;
-    color: #ffc107;
+    color:  #fde74c;
     color: #F7F1E1;
-    text-shadow: 0 0 10px #FFC300, 0 0 50px #1c1891;
 
 
     
   }
   .welcome-content-special-1{
-    text-shadow: 0 0 40px #ffd000, 0 0 50px #efed59;
-    color: #efed59;
+    text-shadow: 0 0 30px #07074e, 0 0 20px #d1ff05;
+    color: rgb(253, 231, 76,1);
+    text-align: left;
 
 
     
   }
   .welcome-content-special{
-    text-shadow: 0 0 50px #3528ed, 0 0 50px #1c1891;
-    text-shadow: 0 0 40px #28036d, 0 0 50px #0638c5;
+    text-shadow: 0 0 30px #161502, 0 0 30px #0638c5;
+    color: rgb(253, 231, 76,1);
+    color: #ffc107;
 
 
 
@@ -97,6 +101,7 @@
   .welcome-content-special-2{
     text-shadow: 0 0 40px #ffd000, 0 0 50px #efed59;
     color: #efed59;
+    
    
 
   }
@@ -128,7 +133,4 @@
  
 
 
-  img:nth-child(3){
-    object-position: right;
-  }
 

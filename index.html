@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sri Ranga Fine Arts</title>
 
-  <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/home.css">
   <link rel="stylesheet" href="styles/about.css">
   <link rel="stylesheet" href="styles/courses.css">
@@ -14,6 +13,7 @@
   <link rel="stylesheet" href="styles/testimonials.css">
   <link rel="stylesheet" href="styles/team_guru.css">
   <link rel="stylesheet" href="styles/contact.css">
+  <link rel="stylesheet" href="styles/social.css">
   <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/stats.css">
   <!-- FONT -->
@@ -21,42 +21,60 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <!-- SWIPER JS -->
-   <!-- Swiper CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <!-- FONT AWESOME for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <!-- aos libray -->
+  <!-- AOS libray -->
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <!-- animista library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
-  <style>
-   
-  </style>
+  <!-- TAILWIND CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-  <!-- HEADER -->
-  <header>
-    <div class="header-logo">
-      <img src="./assets/global/sree_ranga_academy_logo.jpg" alt="Sri Ranga Academy Logo" height="50" width="50" />
-      <div class="logo-text">
-        <h1>Sri Ranga</h1>
-        <small>ACADEMY OF FINE ARTS</small>
+<!-- HEADER -->
+  <header class="w-full fixed top-0 z-50  bg-[#1c3b6e] md:bg-transparent
+                  px-4 py-1 flex items-center justify-between">
+    <!-- Logo -->
+    <div class="header-logo flex items-center gap-2">
+      <img src="./assets/global/sree_ranga_academy_logo.jpg" alt="Sri Ranga Academy Logo" class="h-10 w-10 rounded-full object-cover">
+      <div class="logo-text text-yellow-300">
+        <h1 class="text-lg font-bold">Sri Ranga</h1>
+        <small class="text-xs text-white">ACADEMY OF FINE ARTS</small>
       </div>
     </div>
   
-    <nav class="nav">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#courses">Courses</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
+    <!-- Desktop Nav + Mobile Toggle -->
+    <div class="flex items-center gap-4">
+      <!-- Desktop Nav -->
+      <ul class="hidden md:flex gap-4 text-white font-light">
+        <li><a href="#home" class="px-3 py-1 border border-white rounded hover:shadow-md">Home</a></li>
+        <li><a href="#about" class="px-3 py-1 border border-white rounded hover:shadow-md">About</a></li>
+        <li><a href="#courses" class="px-3 py-1 border border-white rounded hover:shadow-md">Courses</a></li>
+        <li><a href="#gallery" class="px-3 py-1 border border-white rounded hover:shadow-md">Gallery</a></li>
+        <li><a href="#contact" class="px-3 py-1 border border-white rounded hover:shadow-md">Contact</a></li>
       </ul>
-    </nav>
+  
+      <!-- Mobile Menu Button -->
+      <button id="menu-toggle" class="md:hidden text-white">
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2"
+             viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
   </header>
+  <!-- Mobile Nav Items -->
+  <div id="mobile-menu" class="md:hidden hidden flex flex-col bg-blue-900/90 backdrop-blur px-4 pt-16 pb-4 space-y-2 text-yellow-300 fixed top-0 left-0 w-full z-40">
+    <a href="#home" class="hover:text-yellow-400">Home</a>
+    <a href="#about" class="hover:text-yellow-400">About</a>
+    <a href="#courses" class="hover:text-yellow-400">Courses</a>
+    <a href="#gallery" class="hover:text-yellow-400">Gallery</a>
+    <a href="#contact" class="hover:text-yellow-400">Contact</a>
+  </div>
+<!-- END OF HEADER -->
   
   <!-- HOME -->
   <div class="home-section">
@@ -304,8 +322,29 @@
     </div>
   </section>
 
-
-  <!-- CONTACT -->
+<!-- SOCIAL MEDIA -->
+<section class="social-follow">
+  <h2>Follow Us</h2>
+  <div class="social-links">
+    <a href="https://facebook.com" target="_blank" class="social-link" style="--i:1">
+      <i class="fab fa-facebook-f"></i>
+      <span>Facebook</span>
+    </a>
+    <a href="https://instagram.com" target="_blank" class="social-link" style="--i:2">
+      <i class="fab fa-instagram"></i>
+      <span>Instagram</span>
+    </a>
+    <a href="https://youtube.com" target="_blank" class="social-link" style="--i:3">
+      <i class="fab fa-youtube"></i>
+      <span>YouTube</span>
+    </a>
+    <a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="social-link" style="--i:4">
+      <i class="fab fa-whatsapp"></i>
+      <span>WhatsApp</span>
+    </a>
+  </div>
+</section>
+<!-- CONTACT -->
   <div class="contact-section" id="contact">
     <div class="contact-header" data-aos="fade-down">
       <img src="assets/global/sree_ranga_academy_logo.jpg" alt="Sri Ranga Logo" class="academy-logo" />
@@ -345,6 +384,9 @@
       </div>
     </div>
   </div>
+
+
+
 
   <!-- FOOTER -->
   <footer class="sri-footer">
@@ -428,5 +470,13 @@
   });
   <!--  once: true, -->
 </script>
+<script>
+  document.getElementById('menu-toggle').addEventListener('click', () => {
+    document.getElementById('mobile-menu').classList.toggle('hidden');
+  });
+</script>
+
+
+
 
 </html>
